@@ -65,7 +65,7 @@ namespace VariablePractice
             double totalCost = area * costPerMetre;
 
             outputLabel.Text = $"The area of a room with dimensions {length}m x {width}m is {area}m ^ 2";
-            outputLabel.Text = $"\nThe cost to carpet this area at ${costPerMetre} per square metre is ${totalCost}";
+            outputLabel.Text += $"\n\nThe cost to carpet this area at ${costPerMetre} per square metre is ${totalCost}";
         }
 
         private void button3_Click(object sender, EventArgs e)

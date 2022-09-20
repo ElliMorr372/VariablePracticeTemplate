@@ -34,7 +34,7 @@
             this.payButton = new System.Windows.Forms.Button();
             this.areaButton = new System.Windows.Forms.Button();
             this.carpetButton = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.billButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // hockeyButton
@@ -96,17 +96,17 @@
             this.carpetButton.UseVisualStyleBackColor = true;
             this.carpetButton.Click += new System.EventHandler(this.carpetButton_Click);
             // 
-            // button3
+            // billButton
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(26, 242);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(81, 33);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Bill";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.billButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.billButton.Location = new System.Drawing.Point(26, 242);
+            this.billButton.Margin = new System.Windows.Forms.Padding(2);
+            this.billButton.Name = "billButton";
+            this.billButton.Size = new System.Drawing.Size(81, 33);
+            this.billButton.TabIndex = 8;
+            this.billButton.Text = "Bill";
+            this.billButton.UseVisualStyleBackColor = true;
+            this.billButton.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
@@ -114,7 +114,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(431, 302);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.billButton);
             this.Controls.Add(this.carpetButton);
             this.Controls.Add(this.areaButton);
             this.Controls.Add(this.payButton);
@@ -134,7 +134,7 @@
         private System.Windows.Forms.Button payButton;
         private System.Windows.Forms.Button areaButton;
         private System.Windows.Forms.Button carpetButton;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button billButton;
     }
 }
 
